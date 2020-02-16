@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta  charset="utf-8" />
+	<title>ToDoList</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="header">
+		<div class="form">
+			<label for="title">ToDoList</label>
+			<input type="text" id="title" placeholder="添加ToDo" required="required" autocomplete="off" />
+		</div>
+	</div>
+	<div class="content">
+		<div class="doing">
+			<h2>
+				正在进行
+				<span id="todocount">0</span>
+			</h2>
+			<ol id="todolist">
+				<!-- <li>
+					<input type="checkbox" name="" class="itemValue">
+					<p></p>
+					<a class="itemClear" id="">-</a>
+				</li> -->
+			</ol>
+		</div>
+		<div class="done">
+			<h2>
+				已经完成
+				<span id="donecount">0</span>
+			</h2>
+			<ol id="donelist">
+				<li>
+				</li>
+			</ol>
+		</div>
+	</div>
+	<div class="footer">
+		Copyright © todolist.cn
+	</div>
+	<canvas id="drawing" width="600" height="400"></canvas>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

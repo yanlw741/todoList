@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #CDCDCD;
+  font-size: 16px;
+  height: 800px;
+}
+
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.header {
+  background: rgba(47, 47, 47, 0.98);
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.header .form {
+  width: 100%;
+  min-width: 100px;
+  max-width: 600px;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header label {
+  color: #DDD;
+  float: left;
+  width: 100px;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header input {
+  float: right;
+  width: 60%;
+  height: 26px;
+  margin-top: 12px;
+  border-radius: 5px;
+  text-indent: 10px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.24), 0 1px 6px rgba(0, 0, 0, 0.45) inset;
+  border: none;
+}
+
+button{
+  float: right;
+  margin-left: 15px;
+  margin-top: 12px;
+  padding:3px 10px;
+  border-radius: 5px;
+}
+
+.content {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.content h2 {
+  position: relative;
+  margin: 20px 0;
+}
+
+.content h2 span {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  display: inline-block;
+  padding: 0 5px;
+  background: #e6e6fa;
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.content li {
+  height: 32px;
+  line-height: 32px;
+  background: #fff;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 0 45px;
+  border-radius: 3px;
+  border-left: 5px solid #629A9C;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+.content li input[type=checkbox] {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.content li a{
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  display: inline-block;
+  width: 14px;
+  height: 12px;
+  border-radius: 14px;
+  border: 6px double #fff;
+  background: #ccc;
+
+  line-height: 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.doing .done{
+  margin-bottom: 20px;
+}
+
+.footer{
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
